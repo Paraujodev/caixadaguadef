@@ -1,0 +1,77 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004-005 @WRITE_PROGRAM_MEMORY8.P2
+008     PSP_DATA
+015     CCP_1
+015     CCP_1_LOW
+016     CCP_1_HIGH
+01B     CCP_2_LOW
+01B     CCP_2
+01C     CCP_2_HIGH
+020     @TRIS_C
+021     LCD_comando.comando
+021     main.@SCRATCH1
+021     @PSTRINGC7_620.@SCRATCH1
+022     @delay_ms1.P1
+022     @PSTRINGC7_620.@SCRATCH2
+023     @PSTRINGC7_620.@SCRATCH3
+024     @PSTRINGC7_620.@SCRATCH4
+025     LCD_texto.letra
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+09C.6   C1OUT
+09C.7   C2OUT
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  @const628.call
+000009  @const630.call
+00000E  @const631.call
+000015  @const636.call
+00001C  @const637.call
+000024  @const638.call
+00002A  @const639.call
+000032  @const640.call
+000038  @delay_ms1
+00004D  inicia_lcd
+000094  LCD_comando
+0000AD  LCD_texto
+0000C6  @PSTRINGC7_620
+000111  main
+000111  @cinit1
+00011A  @cinit2
+
+Project Directory:
+    C:\Users\Paraujo\Documents\CCS C Projects\Iniciando css\
+
+Project Files:
+    Iniciando2.c                                            [16-abr-22 11:59  CRC=389D9FC8]
+    D:\Program Files (x86)\PICC\Devices\16F877A.h           [21-jun-13 16:04  CRC=4E65664C]
+
+Source signature=D5686C60
+
+Units:
+    Iniciando2 (main)
+
+Compiler Settings:
+    Processor:      PIC16F877A
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   Iniciando2.xsym
+    Errors:      Iniciando2.err
+    Ext Symbols: Iniciando2.esym
+    INHX8:       Iniciando2.hex
+    Symbols:     Iniciando2.sym
+    List:        Iniciando2.lst
+    Debug/COFF:  Iniciando2.cof
+    Project:     Iniciando2.ccspjt
+    Call Tree:   Iniciando2.tre
+    Statistics:  Iniciando2.STA

@@ -1,0 +1,7 @@
+F G "main" 0 10 "void()" `34 
+D G "__PCM__" 0 10 ""5.007""
+D G "__DEVICE__" 0 10 ""
+D G "__DATE__" 0 10 ""11-abr-22""
+D G "__TIME__" 0 10 ""17:22:36""
+D G "_XTAL_FREQ" 0 1 "4000000"
+C L "main" 0 0 1 "FUNCTION"

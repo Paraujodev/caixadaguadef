@@ -1,0 +1,13 @@
+*** Error 18 "Iniciando.c" Line 2(10,17): File can not be opened
+    Not in "D:\Program Files (x86)\PICC\Devices\xc.h"
+    Not in "D:\Program Files (x86)\PICC\Drivers\xc.h"
+    Not in project "C:\Users\Paraujo\Documents\CCS C Projects\Iniciando css\xc.h"
+*** Error 18 "Iniciando.c" Line 3(10,25): File can not be opened
+    Not in "D:\Program Files (x86)\PICC\Devices\pic16f877a.h"
+    Not in "D:\Program Files (x86)\PICC\Drivers\pic16f877a.h"
+    Not in project "C:\Users\Paraujo\Documents\CCS C Projects\Iniciando css\pic16f877a.h"
+*** Error 128 "Iniciando.c" Line 8(15,21): A #DEVICE required before this line
+--- Info 300 "Iniciando.c" Line 10(11,12): More info:   ** I/O error 131
+*** Error 44 "Iniciando.c" Line 10(11,12): Internal Error - Contact CCS
+      4 Errors,  0 Warnings.
+Build Failed.
